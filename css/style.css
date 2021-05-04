@@ -1,3 +1,7 @@
+body {
+  margin-top: 56px !important;
+}
+
 :root {
   --primary-color: #00838f;
   --secundary-color: white;
