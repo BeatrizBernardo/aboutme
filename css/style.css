@@ -1,68 +1,141 @@
 :root {
-  --primary-color: #00838f;
-  --secundary-color: white;
-  --card: #80cbc4;
+  --first-color: #66bfbf;
+  --second-color: #eaf6f6;
+  --third-color: #fcfefe;
+  --fourth-color: #f76b8a;
+  --primary-font: "Comfortaa", cursive;
+}
+@media (max-width: 300px) {
+  .apresentation {
+    background-color: rebeccapurple;
+  }
+}
+
+h1,
+h2,
+p {
+  font-family: var(--primary-font);
 }
 
 .apresentation {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 150px;
+  text-align: center;
+  padding-top: 269px;
+  padding-bottom: 278px;
+  background-color: var(--second-color);
 }
-.apresentation div,
+
+.apresentation h2,
+.about h2,
+.contact h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.apresentation h1 {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 128px;
+}
+
+.apresentation p,
+.about p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 462;
+  margin-top: 24px;
+}
+
+.link-contact {
+  border: 2px solid var(--first-color);
+  background-color: var(--first-color);
+  color: var(--second-color);
+  transition: all 1s ease;
+}
+
+.link-about,
+.link-launch-app {
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+  transition: all 1s ease;
+}
+
+.link-contact:hover {
+  border: 2px solid var(--third-color);
+  background-color: var(--third-color);
+  color: var(--fourth-color);
+}
+
+.link-about:hover,
+.link-launch-app:hover {
+  border: 2px solid var(--third-color);
+  color: var(--third-color);
+  background-color: var(--fourth-color);
+}
+
+.link-contact,
+.link-about,
+.link-launch-app {
+  padding: 18px 46px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 67px 10px 0 10px;
+  text-align: center;
+}
+
+.link-launch-app {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.subitle-project {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 529;
+  margin-top: 125px;
+  text-align: center;
+}
+
+.projects-name {
+  color: var(--first-color);
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 70px;
+}
+
+.project-description {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 55px;
+}
+
 .about,
 .contact {
   text-align: center;
 }
-.name {
-  font-size: 50px;
-}
-
-.link-about {
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
-}
-
-.link-contact {
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color);
-  color: var(--secundary-color);
-}
-.link-contact,
-.link-about {
-  padding: 20px;
-  border-radius: 40px;
-  text-decoration: none;
-  margin: 10px;
-}
-
-.column-1 {
-  padding: 5px;
-  margin: 0 5px 0 0;
-  background-color: var(--card);
-}
 
 .contact {
   margin-top: 100px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .contact a {
-  color: var(--primary-color);
+  color: var(--first-color);
+  display: inline-block;
+  font-size: 40px;
+  margin: 0 15px;
 }
 
 .contact a:hover {
-  color: var(--card);
-}
-
-.projects-name {
-  color: var(--primary-color);
-  display: block;
-  text-align: center;
+  color: var(--fourth-color);
 }
 
 .bg-color {
-  background-color: var(--primary-color) !important;
+  background-color: var(--first-color) !important;
 }
 
 .navbar {
@@ -72,15 +145,11 @@
 nav li {
   font-weight: bold;
 }
-.project-description {
-  display: block;
-  margin: 0 auto;
-}
 
 .author {
   display: block;
   margin: auto 0;
-  color: var(--primary-color);
+  color: var(--first-color);
   font-weight: bolder;
   text-align: center;
   padding-bottom: 20px;
