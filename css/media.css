@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .apresentation h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .apresentation h2,
+  .about h2,
+  .contact h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .apresentation p,
+  .about p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 347;
+  }
+
+  .projects-name {
+    font-size: 40px;
+  }
+}

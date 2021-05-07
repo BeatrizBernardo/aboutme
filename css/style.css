@@ -5,11 +5,6 @@
   --fourth-color: #f76b8a;
   --primary-font: "Comfortaa", cursive;
 }
-@media (max-width: 300px) {
-  .apresentation {
-    background-color: rebeccapurple;
-  }
-}
 
 h1,
 h2,
