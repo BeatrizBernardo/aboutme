@@ -131,7 +131,6 @@ p {
 }
 
 .contact {
-  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -148,18 +147,6 @@ p {
   color: var(--fourth-color);
 }
 
-.bg-color {
-  background-color: var(--first-color) !important;
-}
-
-.navbar {
-  position: sticky !important;
-  top: 0;
-}
-nav li {
-  font-weight: bold;
-}
-
 .author {
   display: block;
   margin: auto 0;
@@ -171,4 +158,16 @@ nav li {
 
 .author a {
   color: var(--first-color);
+}
+
+.bg-color {
+  background-color: var(--first-color) !important;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+}
+nav li {
+  font-weight: bold;
 }
