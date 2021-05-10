@@ -57,6 +57,12 @@ p {
   margin-bottom: 48px;
 }
 
+.about img {
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
 .link-contact {
   border: 2px solid var(--first-color);
   background-color: var(--first-color);
@@ -124,15 +130,10 @@ p {
   padding-top: 55px;
 }
 
-.about img {
-  max-width: 75%;
-  display: flex;
-  justify-content: center;
-}
-
 .contact {
   margin-top: 100px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .contact a {
@@ -142,7 +143,8 @@ p {
   margin: 0 15px;
 }
 
-.contact a:hover {
+.contact a:hover,
+.author a:hover {
   color: var(--fourth-color);
 }
 
@@ -169,8 +171,4 @@ nav li {
 
 .author a {
   color: var(--first-color);
-}
-
-.author a:hover {
-  color: var(--fourth-color);
 }

@@ -11,8 +11,7 @@
     line-height: 45px;
   }
 
-  .apresentation p,
-  .about p {
+  .apresentation p {
     font-size: 18px;
     line-height: 27px;
     font-weight: 347;
@@ -20,5 +19,9 @@
 
   .projects-name {
     font-size: 40px;
+  }
+
+  .about {
+    padding: 0 50px;
   }
 }
